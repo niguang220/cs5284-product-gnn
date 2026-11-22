@@ -1,0 +1,13 @@
+,,,acc,acc,macro_f1,macro_f1
+,,,mean,std,mean,std
+arm,setting,eval,,,,
+T,normal,test,0.645,0.0067,0.2657,0.0031
+T,normal,test_dedup,0.6443,0.0067,0.2654,0.0031
+T,normal,test_deg0,1.0,0.0,1.0,0.0
+T,normal,test_deg1,0.641,0.0055,0.2764,0.0016
+T,normal,test_deg2,0.655,0.0089,0.4026,0.0042
+T,normal,test_deg3-5,0.6615,0.0041,0.3565,0.0047
+T,normal,test_deg6+,0.6519,0.0109,0.3158,0.012
+T,normal,test_seen,0.6599,0.0069,0.3492,0.004
+T,normal,train,0.9767,0.0109,0.7398,0.0996
+T,normal,val,0.8242,0.0049,0.5156,0.0104

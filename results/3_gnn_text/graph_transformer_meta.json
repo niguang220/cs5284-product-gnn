@@ -1,0 +1,45 @@
+{
+  "embeddings": "original__all-MiniLM-L6-v2.npy",
+  "embeddings_sha256": "1e79c4a221e2bd5160a81ee3109c3068f2cafc10f2502b109152b0a63a7e0ec3",
+  "hidden": 256,
+  "heads": 8,
+  "layers": 2,
+  "pe": "Laplacian eigenvectors, k=16, per connected component, random sign flips in training",
+  "selected": {
+    "lr": 0.001,
+    "dropout": 0.5
+  },
+  "grid": [
+    {
+      "lr": 0.001,
+      "dropout": 0.2
+    },
+    {
+      "lr": 0.001,
+      "dropout": 0.5
+    },
+    {
+      "lr": 0.005,
+      "dropout": 0.2
+    },
+    {
+      "lr": 0.005,
+      "dropout": 0.5
+    }
+  ],
+  "selection": "best validation accuracy, arm GT, seed 0",
+  "weight_decay": 0.0005,
+  "max_epochs": 500,
+  "patience": 50,
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "device": "cuda",
+  "cold_start": "at inference, remove every edge with a test node at either end; PE recomputed on that graph",
+  "std": "sample std (ddof=1) over seeds",
+  "code": "scripts/run_graph_transformer.py",
+  "embeddings_note": "Embeddings re-encoded on 2026-10-29 on another machine; SHA-256 differs from results/shared/embeddings/ (float rounding). Re-running run_baselines.py on them matched results/3_gnn_text/baselines_summary.csv to 3 decimals.",
+  "reproducibility": "GPU runs are not bit-identical across reruns; test accuracy varied by up to 0.004 between two runs."
+}

@@ -1,0 +1,2 @@
+# Keep data files byte-identical to the repo on every OS, so their SHA-256 checks pass.
+data/** -text

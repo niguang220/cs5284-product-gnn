@@ -1,0 +1,5 @@
+architecture,cold_start_evaluation_runs,final_runs,grid_runs,cold_start_evaluation_seconds,final_seconds,grid_seconds,total_seconds,total_minutes
+GCN,6,16,16,1.8,87.0,172.9,261.7,4.4
+GraphSAGE,6,16,16,1.3,82.0,168.2,251.5,4.2
+GAT,6,16,16,1.5,150.6,292.9,445.0,7.4
+GT,6,16,16,2.5,1135.1,1205.2,2342.8,39.0

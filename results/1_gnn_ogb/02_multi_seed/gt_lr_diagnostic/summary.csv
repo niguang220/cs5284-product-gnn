@@ -1,0 +1,9 @@
+,accuracy,accuracy,accuracy,accuracy,accuracy,accuracy,macro_f1_present,macro_f1_present,macro_f1_present,macro_f1_present,macro_f1_present,macro_f1_present
+,mean,mean,mean,std,std,std,mean,mean,mean,std,std,std
+split,test,train,valid,test,train,valid,test,train,valid,test,train,valid
+architecture,,,,,,,,,,,,
+GCN,0.6806,0.891,0.8316,0.0027,0.0077,0.0049,0.2835,0.4832,0.5447,0.0042,0.0229,0.0024
+GraphSAGE,0.6793,0.8888,0.8355,0.0028,0.0104,0.0026,0.2795,0.4675,0.5151,0.0029,0.0209,0.0112
+GAT,0.6806,0.871,0.835,0.0026,0.0078,0.0004,0.288,0.4586,0.5327,0.0041,0.0161,0.0069
+GT,0.6173,0.8015,0.7996,0.0117,0.0069,0.01,0.2275,0.3229,0.4105,0.0054,0.0049,0.0059
+GT-lr0.001,0.6823,0.903,0.8422,0.0031,0.0076,0.0083,0.2735,0.4226,0.4873,0.0029,0.0115,0.0149

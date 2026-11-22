@@ -1,0 +1,44 @@
+{
+  "embedding": "original__all-MiniLM-L6-v2.npy",
+  "embedding_sha256": "ab15f724a8cdb6c3e3e429fc26f8a8b517af0c239df9cb52d9539a1c192355ee",
+  "gpt_answer_missing": {
+    "train": 0.029507750645279884,
+    "val": 0.022900763899087906,
+    "test": 0.01753874681890011
+  },
+  "top_k": 3,
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "num_classes": 47,
+  "hidden": 256,
+  "threads": 4,
+  "max_epochs": 500,
+  "lr": 0.01,
+  "weight_decay": 0.0005,
+  "dropout": 0.5,
+  "patience": 50,
+  "label_propagation_val_acc": {
+    "alpha=0.5,layers=3": 0.821882963180542,
+    "alpha=0.5,layers=10": 0.8244274854660034,
+    "alpha=0.5,layers=50": 0.8244274854660034,
+    "alpha=0.7,layers=3": 0.8244274854660034,
+    "alpha=0.7,layers=10": 0.8263359069824219,
+    "alpha=0.7,layers=50": 0.8263359069824219,
+    "alpha=0.9,layers=3": 0.822519063949585,
+    "alpha=0.9,layers=10": 0.830788791179657,
+    "alpha=0.9,layers=50": 0.8326972126960754,
+    "alpha=0.99,layers=3": 0.8034350872039795,
+    "alpha=0.99,layers=10": 0.8212468028068542,
+    "alpha=0.99,layers=50": 0.8078880310058594
+  },
+  "label_propagation_chosen": {
+    "alpha": 0.9,
+    "layers": 50
+  },
+  "cold_start": "at inference, remove every edge with a test node at either end (GCN and O)",
+  "std": "sample std (ddof=1) over seeds; GPT and O are deterministic (seed -1)",
+  "code": "scripts/run_gpt_pred.py"
+}

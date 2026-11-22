@@ -1,0 +1,12 @@
+[
+  {
+    "artifact": "gpt_responses",
+    "source": "TAPE README, section 'LLM responses', row 'ogbn-products (subset)' (commit d9881f7e277823d0c3a56851c6ccd0412adc773f)",
+    "url": "https://drive.google.com/file/d/1C769tlhd8pT0s7I3vXIEUI-PK7A4BB1p/view?usp=sharing",
+    "file": "ogbn-products.zip",
+    "bytes": 85064877,
+    "sha256": "38b096e6ee75dc12220f3ba3c3baefeea637f6890afe0f24d5a2be9246eeba88",
+    "contents": "ogbn-products/{i}.json for node i = 0..54024; OpenAI chat completion from gpt-3.5-turbo-0613, text in choices[0].message.content",
+    "downloaded": "2026-10-24"
+  }
+]

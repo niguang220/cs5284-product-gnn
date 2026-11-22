@@ -1,0 +1,47 @@
+{
+ "llms": [
+  "gpt",
+  "qwen",
+  "qwen35_9b_knowndefs",
+  "qwen35_9b_rareremap"
+ ],
+ "lambda": 1.0,
+ "ppr": [
+  [
+   0.15,
+   1
+  ],
+  [
+   0.15,
+   3
+  ],
+  [
+   0.5,
+   1
+  ],
+  [
+   0.5,
+   3
+  ]
+ ],
+ "betas": [
+  0.0,
+  0.25,
+  0.5,
+  1.0
+ ],
+ "gammas": [
+  0.0,
+  0.25,
+  0.5,
+  1.0
+ ],
+ "g2s": [
+  0.0,
+  0.5,
+  1.0
+ ],
+ "knn": 5,
+ "selection": "val accuracy, mean over GNN seeds, per model and setting",
+ "knn_emb": "original__all-MiniLM-L6-v2"
+}

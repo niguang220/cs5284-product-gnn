@@ -1,0 +1,19 @@
+{
+  "file": "tape_lm_orig_deberta-base_seed0_ex-testlike.emb.npy",
+  "text_variant": "original",
+  "encoder": "microsoft/deberta-base, fine-tuned on the train nodes minus the testlike holdout (results/lm_plans/ex-testlike.json), CLS vector",
+  "encoder_revision": "not pinned",
+  "lm_seed": 0,
+  "plan": "ex-testlike",
+  "fit_nodes": 12708,
+  "code": "notebooks/2_text_only/tape_lm_colab.ipynb (run before a later fix to the train accuracy field; training is the same)",
+  "shape": [
+    54025,
+    768
+  ],
+  "dtype": "float16",
+  "bytes": 82982528,
+  "sha256": "9bdf79834519541ab11a8a05aba9434e7df8a70ad67a4537e9bed9a3806c0cd4",
+  "created": "2026-11-06",
+  "minutes_gpu": 60.7
+}

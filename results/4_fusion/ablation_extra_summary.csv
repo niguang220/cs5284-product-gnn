@@ -1,0 +1,39 @@
+,,,val_acc,val_acc,test_acc,test_acc,test_f1,test_f1
+,,,mean,std,mean,std,mean,std
+base,setting,step,,,,,,
+NAGphormer,normal,base,0.9288,0.002,0.8138,0.0029,0.3981,0.0011
+NAGphormer,normal,+ LLM fusion,0.9188,0.0019,0.8358,0.0013,0.4271,0.0021
+NAGphormer,normal,+ PPR local prior,0.9166,0.0032,0.8415,0.0012,0.4355,0.0013
+NAGphormer,normal,+ BP (final),0.9184,0.0035,0.842,0.0011,0.4366,0.0023
+NAGphormer,normal,+ global prior,0.9071,0.0004,0.835,0.0018,0.4104,0.0012
+NAGphormer,normal,+ global prior + BP,0.9129,0.0016,0.8355,0.0018,0.4121,0.0015
+NAGphormer,normal,+ global-mix prior,0.9079,0.0008,0.8354,0.0016,0.4116,0.0019
+NAGphormer,normal,+ global-mix prior + BP,0.9139,0.0013,0.8359,0.002,0.4182,0.0012
+NAGphormer,normal,"+ fusion + BP, no prior",0.9219,0.0019,0.8379,0.0013,0.4292,0.0025
+NAGphormer,cold,base,0.921,0.0052,0.7987,0.0041,0.3898,0.0012
+NAGphormer,cold,+ LLM fusion,0.915,0.0018,0.8248,0.0013,0.4209,0.0006
+NAGphormer,cold,+ PPR local prior,0.9118,0.0022,0.8311,0.0016,0.428,0.0014
+NAGphormer,cold,+ BP (final),0.9148,0.002,0.8311,0.0016,0.428,0.0014
+NAGphormer,cold,+ global prior,0.901,0.004,0.8218,0.0044,0.41,0.0045
+NAGphormer,cold,+ global prior + BP,0.909,0.0025,0.823,0.0037,0.4126,0.0045
+NAGphormer,cold,+ global-mix prior,0.9029,0.0015,0.8213,0.0052,0.415,0.004
+NAGphormer,cold,+ global-mix prior + BP,0.9095,0.0026,0.8219,0.0045,0.4201,0.0037
+NAGphormer,cold,"+ fusion + BP, no prior",0.9177,0.0019,0.826,0.0024,0.4249,0.003
+MLP,normal,base,0.9227,0.0031,0.792,0.002,0.3755,0.0008
+MLP,normal,+ LLM fusion,0.9162,0.0017,0.8228,0.0011,0.4147,0.0029
+MLP,normal,+ PPR local prior,0.912,0.0026,0.8333,0.0006,0.4311,0.0018
+MLP,normal,+ BP (final),0.9187,0.0029,0.8387,0.0013,0.4361,0.0007
+MLP,normal,+ global prior,0.9037,0.0007,0.8242,0.0019,0.3993,0.003
+MLP,normal,+ global prior + BP,0.913,0.0027,0.8336,0.0014,0.4076,0.0008
+MLP,normal,+ global-mix prior,0.9044,0.0012,0.8246,0.0017,0.4002,0.0029
+MLP,normal,+ global-mix prior + BP,0.9138,0.0021,0.8336,0.0019,0.4179,0.0028
+MLP,normal,"+ fusion + BP, no prior",0.9235,0.0038,0.8327,0.0015,0.4264,0.0015
+MLP,cold,base,0.9227,0.0031,0.792,0.002,0.3755,0.0008
+MLP,cold,+ LLM fusion,0.915,0.0025,0.82,0.0039,0.4147,0.0029
+MLP,cold,+ PPR local prior,0.9136,0.0031,0.8285,0.0039,0.4276,0.0049
+MLP,cold,+ BP (final),0.9174,0.0025,0.8285,0.0039,0.4276,0.0049
+MLP,cold,+ global prior,0.9037,0.0007,0.8242,0.0019,0.3993,0.003
+MLP,cold,+ global prior + BP,0.9107,0.002,0.8238,0.0015,0.3998,0.0032
+MLP,cold,+ global-mix prior,0.9044,0.0012,0.8246,0.0017,0.4002,0.0029
+MLP,cold,+ global-mix prior + BP,0.9121,0.0019,0.8247,0.0007,0.4085,0.0047
+MLP,cold,"+ fusion + BP, no prior",0.92,0.001,0.8228,0.0011,0.4147,0.0029

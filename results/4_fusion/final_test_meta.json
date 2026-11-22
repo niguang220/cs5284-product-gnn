@@ -1,0 +1,35 @@
+{
+  "eval": "test",
+  "n_eval": 37745,
+  "subsets": {
+    "all": 37745,
+    "seen": 36893,
+    "no_train_nb": 22175,
+    "has_train_nb": 15570,
+    "one_train_nb": 10476,
+    "two_plus_train_nb": 5094
+  },
+  "w": 0.25,
+  "gamma": 0.5,
+  "kappa": 5.0,
+  "rho": 0.25,
+  "eta": 0.25,
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "lm_seeds": [
+    0,
+    1,
+    2
+  ],
+  "n_boot": 1000,
+  "boot_seed": 0,
+  "threads": 4,
+  "tables": "P(g|y), P(g|y,b) and BP messages from train labels; smoothing 0.5",
+  "test_labels": "read",
+  "parameters_fixed": "on train-only holdouts before this script was written",
+  "minutes": 21.5,
+  "code": "scripts/run_final_eval.py"
+}

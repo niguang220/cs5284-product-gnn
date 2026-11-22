@@ -1,0 +1,5 @@
+,,val_acc,val_acc,test_acc,test_acc,test_f1,test_f1
+,,mean,std,mean,std,mean,std
+model,setting,,,,,,
+NAGphormer@ft-gte-large-r_s0,cold,0.916,0.0017,0.8314,0.0014,0.4263,0.0019
+NAGphormer@ft-gte-large-r_s0,normal,0.9169,0.0016,0.8415,0.0015,0.4343,0.0031

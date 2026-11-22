@@ -1,0 +1,46 @@
+{
+ "args": {
+  "model": "Alibaba-NLP/gte-large-en-v1.5",
+  "tag": "",
+  "grad_ckpt": true,
+  "device": "cuda:0",
+  "seed": 0,
+  "max_len": 320,
+  "epochs": 2,
+  "batch": 32,
+  "lr": 2e-05,
+  "evals_per_epoch": 2
+ },
+ "best_val_acc_lm_head": 0.9147582697201018,
+ "log": [
+  {
+   "step": 230,
+   "epoch": 0.5,
+   "loss": 0.27155497670173645,
+   "val_acc": 0.8765903307888041,
+   "min": 4.6
+  },
+  {
+   "step": 460,
+   "epoch": 1.0,
+   "loss": 0.47561144828796387,
+   "val_acc": 0.9090330788804071,
+   "min": 9.6
+  },
+  {
+   "step": 690,
+   "epoch": 1.5,
+   "loss": 0.45737504959106445,
+   "val_acc": 0.9115776081424937,
+   "min": 14.6
+  },
+  {
+   "step": 920,
+   "epoch": 2.0,
+   "loss": 0.7088514566421509,
+   "val_acc": 0.9147582697201018,
+   "min": 19.1
+  }
+ ],
+ "peak_gpu_gb": 13.97
+}

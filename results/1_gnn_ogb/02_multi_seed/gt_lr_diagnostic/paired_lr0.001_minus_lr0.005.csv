@@ -1,0 +1,7 @@
+split,metric,n_pairs,mean_difference,ci95_lower,ci95_upper
+train,accuracy,3,0.1015,0.0761,0.1269
+train,macro_f1_present,3,0.0996,0.0724,0.1268
+valid,accuracy,3,0.0426,0.0354,0.0499
+valid,macro_f1_present,3,0.0768,0.048,0.1055
+test,accuracy,3,0.065,0.0437,0.0863
+test,macro_f1_present,3,0.046,0.0367,0.0553

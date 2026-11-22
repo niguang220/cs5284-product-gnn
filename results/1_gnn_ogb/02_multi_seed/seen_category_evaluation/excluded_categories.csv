@@ -1,0 +1,10 @@
+category_id,category,train_support,excluded_test_products
+22,Magazine Subscriptions,0,5
+27,Collectibles & Fine Art,0,2
+30,Amazon Fashion,0,2
+36,Office & School Supplies,0,17
+37,Home Improvement,0,14
+38,Camera & Photo,0,2
+39,GPS & Navigation,0,2
+42,Baby,0,807
+43,Kindle Store,0,1

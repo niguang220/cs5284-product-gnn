@@ -1,0 +1,37 @@
+setting,model,slice,ece,conf,acc
+cold,GT,test,0.074,0.882,0.809
+cold,GT,test hop1,0.065,0.915,0.85
+cold,GT,test hop2,0.079,0.89,0.812
+cold,GT,test hop3,0.108,0.836,0.735
+cold,GT,test hop4+,0.099,0.712,0.674
+cold,GT,val,0.019,0.931,0.922
+cold,GT,val hop1,0.025,0.936,0.929
+cold,GT,val hop2,0.028,0.929,0.915
+cold,GT,val hop3,0.058,0.915,0.944
+cold,fused,test,0.114,0.942,0.828
+cold,fused,test hop1,0.099,0.956,0.858
+cold,fused,test hop2,0.121,0.945,0.824
+cold,fused,test hop3,0.143,0.92,0.778
+cold,fused,test hop4+,0.124,0.877,0.76
+cold,fused,val,0.052,0.962,0.913
+cold,fused,val hop1,0.051,0.963,0.917
+cold,fused,val hop2,0.057,0.963,0.908
+cold,fused,val hop3,0.066,0.959,0.926
+normal,GT,test,0.067,0.884,0.817
+normal,GT,test hop1,0.057,0.916,0.859
+normal,GT,test hop2,0.074,0.891,0.817
+normal,GT,test hop3,0.1,0.836,0.743
+normal,GT,test hop4+,0.098,0.713,0.683
+normal,GT,val,0.021,0.933,0.927
+normal,GT,val hop1,0.03,0.939,0.93
+normal,GT,val hop2,0.03,0.93,0.925
+normal,GT,val hop3,0.057,0.919,0.944
+normal,fused,test,0.108,0.943,0.835
+normal,fused,test hop1,0.091,0.956,0.866
+normal,fused,test hop2,0.117,0.945,0.828
+normal,fused,test hop3,0.136,0.92,0.787
+normal,fused,test hop4+,0.126,0.879,0.765
+normal,fused,val,0.05,0.963,0.916
+normal,fused,val hop1,0.05,0.964,0.918
+normal,fused,val hop2,0.051,0.963,0.914
+normal,fused,val hop3,0.074,0.958,0.926

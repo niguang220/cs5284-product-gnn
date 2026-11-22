@@ -1,0 +1,16 @@
+{
+  "file": "original__all-MiniLM-L6-v2.npy",
+  "text_variant": "original",
+  "encoder": "sentence-transformers/all-MiniLM-L6-v2",
+  "encoder_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+  "shape": [
+    54025,
+    384
+  ],
+  "dtype": "float32",
+  "bytes": 82982528,
+  "sha256": "ab15f724a8cdb6c3e3e429fc26f8a8b517af0c239df9cb52d9539a1c192355ee",
+  "created": "2026-10-24",
+  "minutes_cpu": 38.6,
+  "note": "rows [34158, 47029] re-encoded on 2026-10-24 after a cleaning fix (Office list markers); verified that re-encoding a subset reproduces full-run rows exactly"
+}

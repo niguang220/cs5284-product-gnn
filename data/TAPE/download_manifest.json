@@ -1,0 +1,16 @@
+[
+  {
+    "artifact":"text",
+    "url":"https:\/\/raw.githubusercontent.com\/XiaoxinHe\/TAPE\/d9881f7e277823d0c3a56851c6ccd0412adc773f\/dataset\/ogbn_products_orig\/ogbn-products_subset.csv",
+    "bytes":37554824,
+    "sha256":"87b3733d24563efda4aaf2e03b42f3acba9a61daa9e5c3d40c8f25f822f45137",
+    "commit":"d9881f7e277823d0c3a56851c6ccd0412adc773f"
+  },
+  {
+    "artifact":"graph",
+    "url":"https:\/\/raw.githubusercontent.com\/XiaoxinHe\/TAPE\/d9881f7e277823d0c3a56851c6ccd0412adc773f\/dataset\/ogbn_products\/ogbn-products_subset.pt",
+    "bytes":25507847,
+    "sha256":"70bc85fcbc20c65637729abda51f996bb46fdbfc98145d07ec3855a2ba1779e4",
+    "commit":"d9881f7e277823d0c3a56851c6ccd0412adc773f"
+  }
+]

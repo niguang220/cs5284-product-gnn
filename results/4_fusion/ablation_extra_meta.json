@@ -1,0 +1,561 @@
+{
+ "lambda": 1.0,
+ "llm_weight": 1,
+ "ppr": [
+  [
+   0.15,
+   1
+  ],
+  [
+   0.15,
+   3
+  ],
+  [
+   0.5,
+   1
+  ],
+  [
+   0.5,
+   3
+  ]
+ ],
+ "betas": [
+  0.0,
+  0.25,
+  0.5,
+  1.0
+ ],
+ "gammas": [
+  0.0,
+  0.25,
+  0.5,
+  1.0
+ ],
+ "g2s": [
+  0.0,
+  0.5,
+  1.0
+ ],
+ "knn": 5,
+ "llms": [
+  "gpt",
+  "qwen",
+  "qwen35_9b_knowndefs",
+  "qwen35_9b_rareremap"
+ ],
+ "combos": [
+  "gpt",
+  "gpt+qwen",
+  "gpt+qwen35_9b_knowndefs",
+  "gpt+qwen35_9b_rareremap"
+ ],
+ "global_prior": "src.label_shift.em_prior (Saerens EM) on the fused posteriors of val + test nodes, pi_tr as in ppr_log_prior (floor 1e-4), lambda = 1; global-mix uses 0.9 pi_hat + 0.1 pi_tr",
+ "selection": "val accuracy, mean over GNN seeds, per base, encoder seed and setting; steps of the selected configuration switched on in turn",
+ "mlp_probs": "scripts/export_probs.py MLP --emb ft-gte-large-r_s{0,1,2} --device cpu --save-ckpt; normal probs used in cold start (an MLP ignores edges)",
+ "selected": [
+  {
+   "model": "NAGphormer@ft-gte-large-r_s0",
+   "setting": "normal",
+   "grid": "ppr",
+   "llms": "gpt",
+   "a": 0.5,
+   "iters": 1.0,
+   "beta": 0.0,
+   "gamma": 0.0,
+   "g2": 0.0
+  },
+  {
+   "model": "NAGphormer@ft-gte-large-r_s0",
+   "setting": "normal",
+   "grid": "global",
+   "llms": "gpt",
+   "beta": 0.0,
+   "gamma": 0.25,
+   "g2": 1.0,
+   "pi_hat_tv_to_train": 0.23581605396985367,
+   "pi_hat_tv_to_test": 0.07843500380894261
+  },
+  {
+   "model": "NAGphormer@ft-gte-large-r_s0",
+   "setting": "normal",
+   "grid": "global-mix",
+   "llms": "gpt",
+   "beta": 0.0,
+   "gamma": 0.25,
+   "g2": 1.0,
+   "pi_hat_tv_to_train": 0.23581605396985367,
+   "pi_hat_tv_to_test": 0.07843500380894261
+  },
+  {
+   "model": "NAGphormer@ft-gte-large-r_s0",
+   "setting": "normal",
+   "grid": "noprior",
+   "llms": "gpt",
+   "beta": 0.0,
+   "gamma": 0.0,
+   "g2": 1.0
+  },
+  {
+   "model": "NAGphormer@ft-gte-large-r_s0",
+   "setting": "cold",
+   "grid": "ppr",
+   "llms": "gpt",
+   "a": 0.5,
+   "iters": 1.0,
+   "beta": 0.0,
+   "gamma": 0.0,
+   "g2": 1.0
+  },
+  {
+   "model": "NAGphormer@ft-gte-large-r_s0",
+   "setting": "cold",
+   "grid": "global",
+   "llms": "gpt+qwen",
+   "beta": 1.0,
+   "gamma": 0.25,
+   "g2": 1.0,
+   "pi_hat_tv_to_train": 0.22570220038084893,
+   "pi_hat_tv_to_test": 0.07887040705975498
+  },
+  {
+   "model": "NAGphormer@ft-gte-large-r_s0",
+   "setting": "cold",
+   "grid": "global-mix",
+   "llms": "gpt+qwen",
+   "beta": 1.0,
+   "gamma": 0.25,
+   "g2": 1.0,
+   "pi_hat_tv_to_train": 0.22570220038084893,
+   "pi_hat_tv_to_test": 0.07887040705975498
+  },
+  {
+   "model": "NAGphormer@ft-gte-large-r_s0",
+   "setting": "cold",
+   "grid": "noprior",
+   "llms": "gpt",
+   "beta": 0.0,
+   "gamma": 0.25,
+   "g2": 1.0
+  },
+  {
+   "model": "NAGphormer@ft-gte-large-r_s1",
+   "setting": "normal",
+   "grid": "ppr",
+   "llms": "gpt",
+   "a": 0.5,
+   "iters": 1.0,
+   "beta": 0.0,
+   "gamma": 0.0,
+   "g2": 1.0
+  },
+  {
+   "model": "NAGphormer@ft-gte-large-r_s1",
+   "setting": "normal",
+   "grid": "global",
+   "llms": "gpt",
+   "beta": 0.0,
+   "gamma": 0.0,
+   "g2": 1.0,
+   "pi_hat_tv_to_train": 0.23506071106673493,
+   "pi_hat_tv_to_test": 0.08244977257008405
+  },
+  {
+   "model": "NAGphormer@ft-gte-large-r_s1",
+   "setting": "normal",
+   "grid": "global-mix",
+   "llms": "gpt",
+   "beta": 0.0,
+   "gamma": 0.0,
+   "g2": 1.0,
+   "pi_hat_tv_to_train": 0.23506071106673493,
+   "pi_hat_tv_to_test": 0.08244977257008405
+  },
+  {
+   "model": "NAGphormer@ft-gte-large-r_s1",
+   "setting": "normal",
+   "grid": "noprior",
+   "llms": "gpt",
+   "beta": 0.0,
+   "gamma": 0.0,
+   "g2": 0.5
+  },
+  {
+   "model": "NAGphormer@ft-gte-large-r_s1",
+   "setting": "cold",
+   "grid": "ppr",
+   "llms": "gpt",
+   "a": 0.15,
+   "iters": 1.0,
+   "beta": 0.0,
+   "gamma": 0.0,
+   "g2": 1.0
+  },
+  {
+   "model": "NAGphormer@ft-gte-large-r_s1",
+   "setting": "cold",
+   "grid": "global",
+   "llms": "gpt",
+   "beta": 0.25,
+   "gamma": 0.25,
+   "g2": 1.0,
+   "pi_hat_tv_to_train": 0.2393324913234321,
+   "pi_hat_tv_to_test": 0.08928224612029462
+  },
+  {
+   "model": "NAGphormer@ft-gte-large-r_s1",
+   "setting": "cold",
+   "grid": "global-mix",
+   "llms": "gpt+qwen",
+   "beta": 0.0,
+   "gamma": 0.25,
+   "g2": 1.0,
+   "pi_hat_tv_to_train": 0.22435578735663403,
+   "pi_hat_tv_to_test": 0.08082313795431528
+  },
+  {
+   "model": "NAGphormer@ft-gte-large-r_s1",
+   "setting": "cold",
+   "grid": "noprior",
+   "llms": "gpt",
+   "beta": 0.0,
+   "gamma": 0.0,
+   "g2": 1.0
+  },
+  {
+   "model": "NAGphormer@ft-gte-large-r_s2",
+   "setting": "normal",
+   "grid": "ppr",
+   "llms": "gpt",
+   "a": 0.5,
+   "iters": 1.0,
+   "beta": 0.0,
+   "gamma": 0.0,
+   "g2": 1.0
+  },
+  {
+   "model": "NAGphormer@ft-gte-large-r_s2",
+   "setting": "normal",
+   "grid": "global",
+   "llms": "gpt",
+   "beta": 0.0,
+   "gamma": 0.0,
+   "g2": 1.0,
+   "pi_hat_tv_to_train": 0.2331696568287285,
+   "pi_hat_tv_to_test": 0.07731059117451454
+  },
+  {
+   "model": "NAGphormer@ft-gte-large-r_s2",
+   "setting": "normal",
+   "grid": "global-mix",
+   "llms": "gpt",
+   "beta": 0.0,
+   "gamma": 0.0,
+   "g2": 1.0,
+   "pi_hat_tv_to_train": 0.2331696568287285,
+   "pi_hat_tv_to_test": 0.07731059117451454
+  },
+  {
+   "model": "NAGphormer@ft-gte-large-r_s2",
+   "setting": "normal",
+   "grid": "noprior",
+   "llms": "gpt",
+   "beta": 0.0,
+   "gamma": 0.0,
+   "g2": 1.0
+  },
+  {
+   "model": "NAGphormer@ft-gte-large-r_s2",
+   "setting": "cold",
+   "grid": "ppr",
+   "llms": "gpt",
+   "a": 0.5,
+   "iters": 1.0,
+   "beta": 0.0,
+   "gamma": 0.0,
+   "g2": 0.5
+  },
+  {
+   "model": "NAGphormer@ft-gte-large-r_s2",
+   "setting": "cold",
+   "grid": "global",
+   "llms": "gpt",
+   "beta": 0.5,
+   "gamma": 0.25,
+   "g2": 1.0,
+   "pi_hat_tv_to_train": 0.23419155796897906,
+   "pi_hat_tv_to_test": 0.08185586160618465
+  },
+  {
+   "model": "NAGphormer@ft-gte-large-r_s2",
+   "setting": "cold",
+   "grid": "global-mix",
+   "llms": "gpt",
+   "beta": 0.25,
+   "gamma": 0.25,
+   "g2": 1.0,
+   "pi_hat_tv_to_train": 0.23419155796897906,
+   "pi_hat_tv_to_test": 0.08185586160618465
+  },
+  {
+   "model": "NAGphormer@ft-gte-large-r_s2",
+   "setting": "cold",
+   "grid": "noprior",
+   "llms": "gpt",
+   "beta": 0.5,
+   "gamma": 0.25,
+   "g2": 0.5
+  },
+  {
+   "model": "MLP@ft-gte-large-r_s0",
+   "setting": "normal",
+   "grid": "ppr",
+   "llms": "gpt",
+   "a": 0.5,
+   "iters": 1.0,
+   "beta": 0.5,
+   "gamma": 0.0,
+   "g2": 1.0
+  },
+  {
+   "model": "MLP@ft-gte-large-r_s0",
+   "setting": "normal",
+   "grid": "global",
+   "llms": "gpt",
+   "beta": 0.25,
+   "gamma": 0.0,
+   "g2": 1.0,
+   "pi_hat_tv_to_train": 0.2293878081960559,
+   "pi_hat_tv_to_test": 0.08490822856990794
+  },
+  {
+   "model": "MLP@ft-gte-large-r_s0",
+   "setting": "normal",
+   "grid": "global-mix",
+   "llms": "gpt",
+   "beta": 0.25,
+   "gamma": 0.0,
+   "g2": 1.0,
+   "pi_hat_tv_to_train": 0.2293878081960559,
+   "pi_hat_tv_to_test": 0.08490822856990794
+  },
+  {
+   "model": "MLP@ft-gte-large-r_s0",
+   "setting": "normal",
+   "grid": "noprior",
+   "llms": "gpt",
+   "beta": 0.0,
+   "gamma": 0.0,
+   "g2": 1.0
+  },
+  {
+   "model": "MLP@ft-gte-large-r_s0",
+   "setting": "cold",
+   "grid": "ppr",
+   "llms": "gpt+qwen35_9b_rareremap",
+   "a": 0.5,
+   "iters": 1.0,
+   "beta": 0.25,
+   "gamma": 0.0,
+   "g2": 0.5
+  },
+  {
+   "model": "MLP@ft-gte-large-r_s0",
+   "setting": "cold",
+   "grid": "global",
+   "llms": "gpt",
+   "beta": 0.25,
+   "gamma": 0.25,
+   "g2": 1.0,
+   "pi_hat_tv_to_train": 0.2293878081960559,
+   "pi_hat_tv_to_test": 0.08490822856990794
+  },
+  {
+   "model": "MLP@ft-gte-large-r_s0",
+   "setting": "cold",
+   "grid": "global-mix",
+   "llms": "gpt",
+   "beta": 0.25,
+   "gamma": 0.25,
+   "g2": 1.0,
+   "pi_hat_tv_to_train": 0.2293878081960559,
+   "pi_hat_tv_to_test": 0.08490822856990794
+  },
+  {
+   "model": "MLP@ft-gte-large-r_s0",
+   "setting": "cold",
+   "grid": "noprior",
+   "llms": "gpt",
+   "beta": 0.0,
+   "gamma": 0.0,
+   "g2": 1.0
+  },
+  {
+   "model": "MLP@ft-gte-large-r_s1",
+   "setting": "normal",
+   "grid": "ppr",
+   "llms": "gpt",
+   "a": 0.5,
+   "iters": 1.0,
+   "beta": 0.0,
+   "gamma": 0.0,
+   "g2": 1.0
+  },
+  {
+   "model": "MLP@ft-gte-large-r_s1",
+   "setting": "normal",
+   "grid": "global",
+   "llms": "gpt",
+   "beta": 0.0,
+   "gamma": 0.0,
+   "g2": 1.0,
+   "pi_hat_tv_to_train": 0.22985230279280805,
+   "pi_hat_tv_to_test": 0.08383282337798496
+  },
+  {
+   "model": "MLP@ft-gte-large-r_s1",
+   "setting": "normal",
+   "grid": "global-mix",
+   "llms": "gpt",
+   "beta": 0.5,
+   "gamma": 0.25,
+   "g2": 1.0,
+   "pi_hat_tv_to_train": 0.22985230279280805,
+   "pi_hat_tv_to_test": 0.08383282337798496
+  },
+  {
+   "model": "MLP@ft-gte-large-r_s1",
+   "setting": "normal",
+   "grid": "noprior",
+   "llms": "gpt",
+   "beta": 0.0,
+   "gamma": 0.0,
+   "g2": 1.0
+  },
+  {
+   "model": "MLP@ft-gte-large-r_s1",
+   "setting": "cold",
+   "grid": "ppr",
+   "llms": "gpt",
+   "a": 0.15,
+   "iters": 1.0,
+   "beta": 0.25,
+   "gamma": 0.0,
+   "g2": 0.5
+  },
+  {
+   "model": "MLP@ft-gte-large-r_s1",
+   "setting": "cold",
+   "grid": "global",
+   "llms": "gpt",
+   "beta": 0.5,
+   "gamma": 0.0,
+   "g2": 1.0,
+   "pi_hat_tv_to_train": 0.22985230279280805,
+   "pi_hat_tv_to_test": 0.08383282337798496
+  },
+  {
+   "model": "MLP@ft-gte-large-r_s1",
+   "setting": "cold",
+   "grid": "global-mix",
+   "llms": "gpt",
+   "beta": 0.0,
+   "gamma": 0.0,
+   "g2": 1.0,
+   "pi_hat_tv_to_train": 0.22985230279280805,
+   "pi_hat_tv_to_test": 0.08383282337798496
+  },
+  {
+   "model": "MLP@ft-gte-large-r_s1",
+   "setting": "cold",
+   "grid": "noprior",
+   "llms": "gpt",
+   "beta": 0.25,
+   "gamma": 0.0,
+   "g2": 1.0
+  },
+  {
+   "model": "MLP@ft-gte-large-r_s2",
+   "setting": "normal",
+   "grid": "ppr",
+   "llms": "gpt",
+   "a": 0.15,
+   "iters": 1.0,
+   "beta": 0.0,
+   "gamma": 0.0,
+   "g2": 1.0
+  },
+  {
+   "model": "MLP@ft-gte-large-r_s2",
+   "setting": "normal",
+   "grid": "global",
+   "llms": "gpt",
+   "beta": 0.25,
+   "gamma": 0.0,
+   "g2": 1.0,
+   "pi_hat_tv_to_train": 0.22696205437856468,
+   "pi_hat_tv_to_test": 0.08999043305507982
+  },
+  {
+   "model": "MLP@ft-gte-large-r_s2",
+   "setting": "normal",
+   "grid": "global-mix",
+   "llms": "gpt",
+   "beta": 0.25,
+   "gamma": 0.0,
+   "g2": 1.0,
+   "pi_hat_tv_to_train": 0.22696205437856468,
+   "pi_hat_tv_to_test": 0.08999043305507982
+  },
+  {
+   "model": "MLP@ft-gte-large-r_s2",
+   "setting": "normal",
+   "grid": "noprior",
+   "llms": "gpt",
+   "beta": 0.0,
+   "gamma": 0.0,
+   "g2": 1.0
+  },
+  {
+   "model": "MLP@ft-gte-large-r_s2",
+   "setting": "cold",
+   "grid": "ppr",
+   "llms": "gpt",
+   "a": 0.5,
+   "iters": 1.0,
+   "beta": 0.0,
+   "gamma": 0.0,
+   "g2": 0.5
+  },
+  {
+   "model": "MLP@ft-gte-large-r_s2",
+   "setting": "cold",
+   "grid": "global",
+   "llms": "gpt",
+   "beta": 0.5,
+   "gamma": 0.0,
+   "g2": 1.0,
+   "pi_hat_tv_to_train": 0.22696205437856468,
+   "pi_hat_tv_to_test": 0.08999043305507982
+  },
+  {
+   "model": "MLP@ft-gte-large-r_s2",
+   "setting": "cold",
+   "grid": "global-mix",
+   "llms": "gpt",
+   "beta": 0.25,
+   "gamma": 0.25,
+   "g2": 1.0,
+   "pi_hat_tv_to_train": 0.22696205437856468,
+   "pi_hat_tv_to_test": 0.08999043305507982
+  },
+  {
+   "model": "MLP@ft-gte-large-r_s2",
+   "setting": "cold",
+   "grid": "noprior",
+   "llms": "gpt",
+   "beta": 0.0,
+   "gamma": 0.0,
+   "g2": 1.0
+  }
+ ]
+}

@@ -1,0 +1,204 @@
+{
+ "ceiling": {
+  "unseen_share": 0.022572526162405612,
+  "n_unseen": 852,
+  "missing_share": 0.020214597959994703,
+  "max_acc_unseen": 0.9774274738375944,
+  "max_acc_unseen_missing": 0.9572128758775997,
+  "lt50_share": 0.07328122930189429,
+  "lt100_share": 0.12070472910319248
+ },
+ "decomposition": [
+  {
+   "model": "MiniLM + MLP",
+   "val": 0.8227,
+   "test": 0.6611,
+   "test_at_val_mix": 0.8007,
+   "test_at_train_mix": 0.7969,
+   "pred_from_val": 0.6845,
+   "tv_pred_test": 0.2151,
+   "tv_pred_train": 0.1836
+  },
+  {
+   "model": "MiniLM + GCN",
+   "val": 0.8707,
+   "test": 0.712,
+   "test_at_val_mix": 0.855,
+   "test_at_train_mix": 0.8496,
+   "pred_from_val": 0.7244,
+   "tv_pred_test": 0.197,
+   "tv_pred_train": 0.1776
+  },
+  {
+   "model": "MiniLM + GT",
+   "val": 0.9039,
+   "test": 0.7648,
+   "test_at_val_mix": 0.8811,
+   "test_at_train_mix": 0.8797,
+   "pred_from_val": 0.7894,
+   "tv_pred_test": 0.1314,
+   "tv_pred_train": 0.1634
+  },
+  {
+   "model": "gte-large + NAGphormer",
+   "val": 0.9288,
+   "test": 0.8138,
+   "test_at_val_mix": 0.9101,
+   "test_at_train_mix": 0.9105,
+   "pred_from_val": 0.8321,
+   "tv_pred_test": 0.0907,
+   "tv_pred_train": 0.1835
+  },
+  {
+   "model": "GPT-3.5 answer",
+   "val": 0.7824,
+   "test": 0.723,
+   "test_at_val_mix": 0.7871,
+   "test_at_train_mix": 0.7924,
+   "pred_from_val": 0.684,
+   "tv_pred_test": 0.1552,
+   "tv_pred_train": 0.2239
+  },
+  {
+   "model": "Final pipeline",
+   "val": 0.9184,
+   "test": 0.842,
+   "test_at_val_mix": 0.9086,
+   "test_at_train_mix": 0.9101,
+   "pred_from_val": 0.8361,
+   "tv_pred_test": 0.0676,
+   "tv_pred_train": 0.2183
+  }
+ ],
+ "hop": [
+  {
+   "hop": "1",
+   "n": 15570,
+   "share": 0.4125,
+   "tv": 0.1392,
+   "shifted_share": 0.0909,
+   "unseen_share": 0.0127,
+   "gpt": 0.7479,
+   "deg": 3.8142
+  },
+  {
+   "hop": "2",
+   "n": 15209,
+   "share": 0.4029,
+   "tv": 0.2324,
+   "shifted_share": 0.1632,
+   "unseen_share": 0.0276,
+   "gpt": 0.7149,
+   "deg": 1.8227
+  },
+  {
+   "hop": "3",
+   "n": 4634,
+   "share": 0.1228,
+   "tv": 0.4649,
+   "shifted_share": 0.3915,
+   "unseen_share": 0.0363,
+   "gpt": 0.68,
+   "deg": 1.8328
+  },
+  {
+   "hop": "4+",
+   "n": 2320,
+   "share": 0.0615,
+   "tv": 0.7824,
+   "shifted_share": 0.7138,
+   "unseen_share": 0.0289,
+   "gpt": 0.6974,
+   "deg": 1.1815
+  }
+ ],
+ "homophily": {
+  "train-train": [
+   0.8155888167184411,
+   7082
+  ],
+  "train-test": [
+   0.7796813047056184,
+   53468
+  ],
+  "test-test": [
+   0.7992644716647844,
+   34533
+  ],
+  "train-val": [
+   0.835832083958021,
+   2668
+  ]
+ },
+ "train_vote": {
+  "val": {
+   "share_with_train_nb": 0.49745547073791346,
+   "vote_acc": 0.8414322250639387
+  },
+  "test": {
+   "share_with_train_nb": 0.41250496754537025,
+   "vote_acc": 0.7763005780346821
+  }
+ },
+ "val_power": [
+  {
+   "cls": "Electronics",
+   "n_train": 225,
+   "n_val": 25,
+   "n_test": 3088,
+   "share_test": 0.08181216055106637,
+   "share_val": 0.015903307888040712
+  },
+  {
+   "cls": "Office Products",
+   "n_train": 83,
+   "n_val": 8,
+   "n_test": 1518,
+   "share_test": 0.040217247317525504,
+   "share_val": 0.005089058524173028
+  },
+  {
+   "cls": "Tools & Home Improvement",
+   "n_train": 114,
+   "n_val": 6,
+   "n_test": 1794,
+   "share_test": 0.04752947410253014,
+   "share_val": 0.003816793893129771
+  },
+  {
+   "cls": "Automotive",
+   "n_train": 41,
+   "n_val": 1,
+   "n_test": 968,
+   "share_test": 0.025645780898132204,
+   "share_val": 0.0006361323155216285
+  }
+ ],
+ "shifted_val_n": 40,
+ "shifted_test_share": 0.1952046628692542,
+ "shifted_val_share": 0.02544529262086514,
+ "weighted_val_ess": 480.428137404719,
+ "gpt": {
+  "train": 0.7935817242317106,
+  "val": 0.7824427480916031,
+  "test": 0.7230361637302954,
+  "tv_gptdist_test": 0.15519936415419258
+ },
+ "notitle": {
+  "train": {
+   "missing_share": 0.008119925046845722,
+   "gpt": 0.5259212991880075,
+   "n": 1601
+  },
+  "val": {
+   "missing_share": 0.03067484662576687,
+   "gpt": 0.5276073619631901,
+   "n": 163
+  },
+  "test": {
+   "missing_share": 0.24084103217585218,
+   "gpt": 0.3791016247212488,
+   "n": 3139
+  }
+ }
+}

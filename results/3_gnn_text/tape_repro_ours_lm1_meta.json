@@ -1,0 +1,37 @@
+{
+  "config": "ours",
+  "hidden": 256,
+  "weight_decay": 0.0005,
+  "max_epochs": 500,
+  "top_k": 3,
+  "lm_seed": 1,
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "num_classes": 47,
+  "threads": 4,
+  "lr": 0.01,
+  "patience": 50,
+  "dropout": 0.5,
+  "layers": 2,
+  "embeddings": [
+    "tape_lm_orig_deberta-base_seed1.emb.npy",
+    "tape_lm_expl_deberta-base_seed1.emb.npy"
+  ],
+  "embeddings_sha256": [
+    "b6041cae7dbe8c44ad8e484073de3114e22e3960fe90247ade3da4ea13ca8be9",
+    "bf61a1e11168af3ba9670f6f138cb51c658db1a1677bd7348f9dc9c79b38dc5f"
+  ],
+  "nodes_by_number_of_gpt_answers": [
+    1132,
+    506,
+    483,
+    51904
+  ],
+  "ensemble": "mean of the logits of the orig, expl and pred models with the same seed",
+  "std": "sample std (ddof=1) over GNN seeds; all seeds share one DeBERTa seed",
+  "test_labels": "not read; metrics cover train and val only",
+  "code": "scripts/run_tape_repro.py"
+}

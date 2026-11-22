@@ -1,0 +1,7 @@
+{
+  "file": "outputs/tape_gpt_preds/ogbn-products.csv",
+  "source": "https://raw.githubusercontent.com/XiaoxinHe/TAPE/d9881f7/gpt_preds/ogbn-products.csv",
+  "bytes": 992028,
+  "sha256": "65cb5bfbbc028dd7e75817a1aa2ba5871d52318fe526238e9db59624cbf07805",
+  "downloaded": "2026-11-06"
+}

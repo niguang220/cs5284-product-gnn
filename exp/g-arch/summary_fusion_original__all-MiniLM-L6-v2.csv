@@ -1,0 +1,3 @@
+variant,val,test,test_std,f1,sel,hop1,hop2,hop3,hop4+,rec_Electronics,rec_Office,rec_Tools,rec_Automotive,cold_val,cold_test,cold_test_std,cold_f1,cold_sel
+GT,0.9071,0.8192,0.001,0.4199,fuse+BP gpt+qwen b=0.25 g=0.0,0.855,0.813,0.7665,0.7254,0.7153,0.8316,0.6542,0.5954,0.9039,0.8066,0.0009,0.4109,fuse+BP+kNN gpt+qwen b=0.25 g=0.25
+NAGphormer,0.9008,0.8126,0.0024,0.412,fuse+BP+kNN gpt+qwen35_9b_knowndefs b=0.0 g=0.25,0.8446,0.8041,0.7641,0.7501,0.6943,0.8382,0.7083,0.6467,0.8933,0.7982,0.0013,0.4017,fuse+BP+kNN gpt+qwen35_9b_knowndefs b=0.5 g=0.25

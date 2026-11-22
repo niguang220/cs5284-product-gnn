@@ -1,0 +1,17 @@
+{
+  "file": "tape_lm_orig_deberta-base_seed1.emb.npy",
+  "text_variant": "original",
+  "encoder": "microsoft/deberta-base, fine-tuned on the train nodes, CLS vector",
+  "encoder_revision": "not pinned",
+  "lm_seed": 1,
+  "code": "notebooks/2_text_only/tape_lm_colab.ipynb",
+  "shape": [
+    54025,
+    768
+  ],
+  "dtype": "float16",
+  "bytes": 82982528,
+  "sha256": "b6041cae7dbe8c44ad8e484073de3114e22e3960fe90247ade3da4ea13ca8be9",
+  "created": "2026-11-06",
+  "minutes_gpu": 67.5
+}

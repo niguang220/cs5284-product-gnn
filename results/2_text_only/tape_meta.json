@@ -1,0 +1,29 @@
+{
+  "embeddings": [
+    "original__all-MiniLM-L6-v2.npy",
+    "tape__all-MiniLM-L6-v2.npy"
+  ],
+  "embeddings_sha256": [
+    "ab15f724a8cdb6c3e3e429fc26f8a8b517af0c239df9cb52d9539a1c192355ee",
+    "3fa75dd5583a8d68d6d9b82e534254e9b9038c51232fa1ddb0543c36a7dee1a1"
+  ],
+  "encoder": "sentence-transformers/all-MiniLM-L6-v2",
+  "encoder_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "num_classes": 47,
+  "hidden": 256,
+  "threads": 4,
+  "max_epochs": 500,
+  "lr": 0.01,
+  "weight_decay": 0.0005,
+  "dropout": 0.5,
+  "patience": 50,
+  "features": "concatenation [original ; TAPE explanation], 768-d",
+  "cold_start": "at inference, remove every edge with a test node at either end (GCN only)",
+  "std": "sample std (ddof=1) over seeds",
+  "code": "scripts/run_tape.py"
+}

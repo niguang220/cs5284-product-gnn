@@ -1,0 +1,5 @@
+,,val_acc,val_acc,test_acc,test_acc,test_f1,test_f1
+,,mean,std,mean,std,mean,std
+model,setting,,,,,,
+GT@ft-gte-large-r_s1,cold,0.9107,0.0033,0.8287,0.0006,0.4309,0.0014
+GT@ft-gte-large-r_s1,normal,0.912,0.0007,0.8359,0.0003,0.4354,0.0007

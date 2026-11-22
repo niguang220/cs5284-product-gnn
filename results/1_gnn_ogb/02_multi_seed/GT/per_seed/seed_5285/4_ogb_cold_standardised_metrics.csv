@@ -1,0 +1,3 @@
+architecture,condition,seed,best_epoch,input_dim,split,common_categories,reference,accuracy,macro_f1_present,macro_f1_47,balanced_accuracy
+GT,4_ogb_cold,5285,36,100,valid,26,uniform over categories with validation AND test support,0.3455613117694447,0.2736624542722764,0.1513877406612593,0.3455613117694447
+GT,4_ogb_cold,5285,36,100,test,26,uniform over categories with validation AND test support,0.26304007659133355,0.1890249980084697,0.10456702017489813,0.26304007659133355

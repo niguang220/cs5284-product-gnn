@@ -1,0 +1,9 @@
+architecture,optimiser,setting,lr,dropout,weight_decay
+GCN,Adam,lr0.01_do0.2_wd0.0005,0.01,0.2,0.0005
+GCN,AdamW,lr0.01_do0.2_wd0.5,0.01,0.2,0.5
+GraphSAGE,Adam,lr0.01_do0.2_wd0.0005,0.01,0.2,0.0005
+GraphSAGE,AdamW,lr0.01_do0.2_wd0.5,0.01,0.2,0.5
+GAT,Adam,lr0.01_do0.2_wd0.0005,0.01,0.2,0.0005
+GAT,AdamW,lr0.01_do0.2_wd0.1,0.01,0.2,0.1
+GT,Adam,lr0.001_do0.5_wd0.0005,0.001,0.5,0.0005
+GT,AdamW,lr0.001_do0.5_wd0.5,0.001,0.5,0.5

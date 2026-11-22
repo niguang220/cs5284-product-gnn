@@ -1,0 +1,24 @@
+{
+ "llms": [
+  "gpt",
+  "qwen",
+  "qwen35_9b_knowndefs",
+  "qwen35_9b_rareremap"
+ ],
+ "betas": [
+  0.0,
+  0.25,
+  0.5,
+  1.0
+ ],
+ "selection": "val accuracy, mean over seeds",
+ "knn": 5,
+ "knn_emb": "original__all-MiniLM-L6-v2",
+ "gammas": [
+  0.25,
+  0.5,
+  1.0
+ ],
+ "compatibility": "train-train edges (separately for co-purchase and kNN edges), 5 pseudo-edges toward 0.8 I + 0.2 uniform",
+ "temperature": "val NLL per seed"
+}

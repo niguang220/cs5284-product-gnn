@@ -1,0 +1,3 @@
+architecture,condition,seed,best_epoch,input_dim,split,common_categories,reference,accuracy,macro_f1_present,macro_f1_47,balanced_accuracy
+GraphSAGE,1_ogb,5285,76,100,valid,26,uniform over categories with validation AND test support,0.5161232862394844,0.4626574280040554,0.2559381516618179,0.5161232862394843
+GraphSAGE,1_ogb,5285,76,100,test,26,uniform over categories with validation AND test support,0.46399011714844496,0.38184204669022065,0.21123177050948377,0.4639901171484449

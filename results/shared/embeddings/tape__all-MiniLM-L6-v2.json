@@ -1,0 +1,15 @@
+{
+  "file": "tape__all-MiniLM-L6-v2.npy",
+  "text_variant": "tape_explanation",
+  "encoder": "sentence-transformers/all-MiniLM-L6-v2",
+  "encoder_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+  "shape": [
+    54025,
+    384
+  ],
+  "dtype": "float32",
+  "bytes": 82982528,
+  "sha256": "3fa75dd5583a8d68d6d9b82e534254e9b9038c51232fa1ddb0543c36a7dee1a1",
+  "created": "2026-10-25",
+  "minutes_cpu": 61.0
+}

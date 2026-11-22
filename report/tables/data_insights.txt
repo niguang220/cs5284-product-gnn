@@ -1,0 +1,22 @@
+1. hop layer sizes: [128, 1590, 11814, 40493]
+   node ids sorted by hop layer: False | first id of each layer: [0, 128, 1624, 13336]
+   hop 0: n=   128 train 6.2% val 1.6% test 92.2% mean degree 12.44
+   hop 1: n=  1590 train 30.6% val 2.3% test 67.1% mean degree 12.02
+   hop 2: n= 11814 train 26.8% val 2.6% test 70.6% mean degree 6.52
+   hop 3: n= 40493 train 27.3% val 3.0% test 69.7% mean degree 1.16
+2. degree train: mean 2.87, median 1, degree-1 share 63.0%
+2. degree val: mean 2.57, median 1, degree-1 share 66.5%
+2. degree test: mean 2.61, median 1, degree-1 share 68.1%
+3. test nodes by hops to nearest train node: {'1': 15570, '2': 15209, '3': 4634, '4+': 2320, 'unreachable': 12}
+   test nodes with a train neighbour: 41.3%
+   label TV to train, test at 1 hops: 0.14
+   label TV to train, test at 2 hops: 0.23
+   label TV to train, test at 3 hops: 0.46
+   label TV to train, test at 4+ hops: 0.78
+4. undirected edges by split pair: {'train-train': 7082, 'train-val': 1334, 'train-test': 26734, 'val-val': 70, 'val-test': 2566, 'test-test': 34533}
+   edges touching a test node: 63833 of 72319 (88.3%)
+5. train: title-less 1601 (10.9%); MISSING among them 0.8%; MISSING total 13, of which title-less 13
+5. val: title-less 163 (10.4%); MISSING among them 3.1%; MISSING total 5, of which title-less 5
+5. test: title-less 3139 (8.3%); MISSING among them 24.1%; MISSING total 763, of which title-less 756
+   class 42 (Baby) by split: 0 0 807
+   test nodes in classes absent from train: 852 (2.3%); with MISSING: 4.3%

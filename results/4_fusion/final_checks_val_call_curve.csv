@@ -1,0 +1,217 @@
+arm,order,fraction,fusion,acc,seed
+MiniLM + GCN,least confident,0.0,blend,0.8708651661872864,0
+MiniLM + GCN,least confident,0.0,poe,0.8708651661872864,0
+MiniLM + GCN,least confident,0.1,blend,0.8804070949554443,0
+MiniLM + GCN,least confident,0.1,poe,0.8816794157028198,0
+MiniLM + GCN,least confident,0.25,blend,0.8778625726699829,0
+MiniLM + GCN,least confident,0.25,poe,0.8816794157028198,0
+MiniLM + GCN,least confident,0.5,blend,0.8778625726699829,0
+MiniLM + GCN,least confident,0.5,poe,0.8823155164718628,0
+MiniLM + GCN,least confident,0.75,blend,0.8778625726699829,0
+MiniLM + GCN,least confident,0.75,poe,0.8823155164718628,0
+MiniLM + GCN,least confident,1.0,blend,0.8778625726699829,0
+MiniLM + GCN,least confident,1.0,poe,0.8823155164718628,0
+MiniLM + GCN,random,0.0,blend,0.8708651661872864,0
+MiniLM + GCN,random,0.0,poe,0.8708651661872864,0
+MiniLM + GCN,random,0.1,blend,0.8702290058135986,0
+MiniLM + GCN,random,0.1,poe,0.8695929050445557,0
+MiniLM + GCN,random,0.25,blend,0.8721374273300171,0
+MiniLM + GCN,random,0.25,poe,0.8702290058135986,0
+MiniLM + GCN,random,0.5,blend,0.8721374273300171,0
+MiniLM + GCN,random,0.5,poe,0.8721374273300171,0
+MiniLM + GCN,random,0.75,blend,0.8765903115272522,0
+MiniLM + GCN,random,0.75,poe,0.8784987330436707,0
+MiniLM + GCN,random,1.0,blend,0.8778625726699829,0
+MiniLM + GCN,random,1.0,poe,0.8823155164718628,0
+MiniLM + GCN,least confident,0.0,blend,0.8708651661872864,1
+MiniLM + GCN,least confident,0.0,poe,0.8708651661872864,1
+MiniLM + GCN,least confident,0.1,blend,0.8772264719009399,1
+MiniLM + GCN,least confident,0.1,poe,0.8791348338127136,1
+MiniLM + GCN,least confident,0.25,blend,0.8721374273300171,1
+MiniLM + GCN,least confident,0.25,poe,0.8765903115272522,1
+MiniLM + GCN,least confident,0.5,blend,0.8721374273300171,1
+MiniLM + GCN,least confident,0.5,poe,0.8765903115272522,1
+MiniLM + GCN,least confident,0.75,blend,0.8721374273300171,1
+MiniLM + GCN,least confident,0.75,poe,0.8759542107582092,1
+MiniLM + GCN,least confident,1.0,blend,0.8721374273300171,1
+MiniLM + GCN,least confident,1.0,poe,0.8759542107582092,1
+MiniLM + GCN,random,0.0,blend,0.8708651661872864,1
+MiniLM + GCN,random,0.0,poe,0.8708651661872864,1
+MiniLM + GCN,random,0.1,blend,0.8695929050445557,1
+MiniLM + GCN,random,0.1,poe,0.8683205842971802,1
+MiniLM + GCN,random,0.25,blend,0.8721374273300171,1
+MiniLM + GCN,random,0.25,poe,0.8683205842971802,1
+MiniLM + GCN,random,0.5,blend,0.8708651661872864,1
+MiniLM + GCN,random,0.5,poe,0.8689567446708679,1
+MiniLM + GCN,random,0.75,blend,0.8702290058135986,1
+MiniLM + GCN,random,0.75,poe,0.8734096884727478,1
+MiniLM + GCN,random,1.0,blend,0.8721374273300171,1
+MiniLM + GCN,random,1.0,poe,0.8759542107582092,1
+MiniLM + GCN,least confident,0.0,blend,0.8721374273300171,2
+MiniLM + GCN,least confident,0.0,poe,0.8721374273300171,2
+MiniLM + GCN,least confident,0.1,blend,0.8797709941864014,2
+MiniLM + GCN,least confident,0.1,poe,0.8797709941864014,2
+MiniLM + GCN,least confident,0.25,blend,0.8778625726699829,2
+MiniLM + GCN,least confident,0.25,poe,0.8797709941864014,2
+MiniLM + GCN,least confident,0.5,blend,0.8778625726699829,2
+MiniLM + GCN,least confident,0.5,poe,0.8791348338127136,2
+MiniLM + GCN,least confident,0.75,blend,0.8778625726699829,2
+MiniLM + GCN,least confident,0.75,poe,0.8791348338127136,2
+MiniLM + GCN,least confident,1.0,blend,0.8778625726699829,2
+MiniLM + GCN,least confident,1.0,poe,0.8791348338127136,2
+MiniLM + GCN,random,0.0,blend,0.8721374273300171,2
+MiniLM + GCN,random,0.0,poe,0.8721374273300171,2
+MiniLM + GCN,random,0.1,blend,0.8708651661872864,2
+MiniLM + GCN,random,0.1,poe,0.8695929050445557,2
+MiniLM + GCN,random,0.25,blend,0.8727735280990601,2
+MiniLM + GCN,random,0.25,poe,0.8695929050445557,2
+MiniLM + GCN,random,0.5,blend,0.8734096884727478,2
+MiniLM + GCN,random,0.5,poe,0.8721374273300171,2
+MiniLM + GCN,random,0.75,blend,0.8778625726699829,2
+MiniLM + GCN,random,0.75,poe,0.8772264719009399,2
+MiniLM + GCN,random,1.0,blend,0.8778625726699829,2
+MiniLM + GCN,random,1.0,poe,0.8791348338127136,2
+MiniLM + explanation + GCN,least confident,0.0,blend,0.8886768221855164,0
+MiniLM + explanation + GCN,least confident,0.0,poe,0.8886768221855164,0
+MiniLM + explanation + GCN,least confident,0.1,blend,0.8956742882728577,0
+MiniLM + explanation + GCN,least confident,0.1,poe,0.8988549709320068,0
+MiniLM + explanation + GCN,least confident,0.25,blend,0.8918575048446655,0
+MiniLM + explanation + GCN,least confident,0.25,poe,0.8931297659873962,0
+MiniLM + explanation + GCN,least confident,0.5,blend,0.8918575048446655,0
+MiniLM + explanation + GCN,least confident,0.5,poe,0.8924936652183533,0
+MiniLM + explanation + GCN,least confident,0.75,blend,0.8918575048446655,0
+MiniLM + explanation + GCN,least confident,0.75,poe,0.8924936652183533,0
+MiniLM + explanation + GCN,least confident,1.0,blend,0.8918575048446655,0
+MiniLM + explanation + GCN,least confident,1.0,poe,0.8924936652183533,0
+MiniLM + explanation + GCN,random,0.0,blend,0.8886768221855164,0
+MiniLM + explanation + GCN,random,0.0,poe,0.8886768221855164,0
+MiniLM + explanation + GCN,random,0.1,blend,0.8886768221855164,0
+MiniLM + explanation + GCN,random,0.1,poe,0.8880407214164734,0
+MiniLM + explanation + GCN,random,0.25,blend,0.8905852437019348,0
+MiniLM + explanation + GCN,random,0.25,poe,0.8905852437019348,0
+MiniLM + explanation + GCN,random,0.5,blend,0.893765926361084,0
+MiniLM + explanation + GCN,random,0.5,poe,0.8924936652183533,0
+MiniLM + explanation + GCN,random,0.75,blend,0.8924936652183533,0
+MiniLM + explanation + GCN,random,0.75,poe,0.8931297659873962,0
+MiniLM + explanation + GCN,random,1.0,blend,0.8918575048446655,0
+MiniLM + explanation + GCN,random,1.0,poe,0.8924936652183533,0
+MiniLM + explanation + GCN,least confident,0.0,blend,0.885496199131012,1
+MiniLM + explanation + GCN,least confident,0.0,poe,0.885496199131012,1
+MiniLM + explanation + GCN,least confident,0.1,blend,0.8982188105583191,1
+MiniLM + explanation + GCN,least confident,0.1,poe,0.9001272320747375,1
+MiniLM + explanation + GCN,least confident,0.25,blend,0.893765926361084,1
+MiniLM + explanation + GCN,least confident,0.25,poe,0.8918575048446655,1
+MiniLM + explanation + GCN,least confident,0.5,blend,0.893765926361084,1
+MiniLM + explanation + GCN,least confident,0.5,poe,0.8905852437019348,1
+MiniLM + explanation + GCN,least confident,0.75,blend,0.893765926361084,1
+MiniLM + explanation + GCN,least confident,0.75,poe,0.8899490833282471,1
+MiniLM + explanation + GCN,least confident,1.0,blend,0.893765926361084,1
+MiniLM + explanation + GCN,least confident,1.0,poe,0.8899490833282471,1
+MiniLM + explanation + GCN,random,0.0,blend,0.885496199131012,1
+MiniLM + explanation + GCN,random,0.0,poe,0.885496199131012,1
+MiniLM + explanation + GCN,random,0.1,blend,0.8861322999000549,1
+MiniLM + explanation + GCN,random,0.1,poe,0.8842239379882812,1
+MiniLM + explanation + GCN,random,0.25,blend,0.8905852437019348,1
+MiniLM + explanation + GCN,random,0.25,poe,0.8886768221855164,1
+MiniLM + explanation + GCN,random,0.5,blend,0.8931297659873962,1
+MiniLM + explanation + GCN,random,0.5,poe,0.8893129825592041,1
+MiniLM + explanation + GCN,random,0.75,blend,0.893765926361084,1
+MiniLM + explanation + GCN,random,0.75,poe,0.8912213444709778,1
+MiniLM + explanation + GCN,random,1.0,blend,0.893765926361084,1
+MiniLM + explanation + GCN,random,1.0,poe,0.8899490833282471,1
+MiniLM + explanation + GCN,least confident,0.0,blend,0.8867684602737427,2
+MiniLM + explanation + GCN,least confident,0.0,poe,0.8867684602737427,2
+MiniLM + explanation + GCN,least confident,0.1,blend,0.8963104486465454,2
+MiniLM + explanation + GCN,least confident,0.1,poe,0.8988549709320068,2
+MiniLM + explanation + GCN,least confident,0.25,blend,0.8918575048446655,2
+MiniLM + explanation + GCN,least confident,0.25,poe,0.8899490833282471,2
+MiniLM + explanation + GCN,least confident,0.5,blend,0.8918575048446655,2
+MiniLM + explanation + GCN,least confident,0.5,poe,0.8893129825592041,2
+MiniLM + explanation + GCN,least confident,0.75,blend,0.8918575048446655,2
+MiniLM + explanation + GCN,least confident,0.75,poe,0.8886768221855164,2
+MiniLM + explanation + GCN,least confident,1.0,blend,0.8918575048446655,2
+MiniLM + explanation + GCN,least confident,1.0,poe,0.8886768221855164,2
+MiniLM + explanation + GCN,random,0.0,blend,0.8867684602737427,2
+MiniLM + explanation + GCN,random,0.0,poe,0.8867684602737427,2
+MiniLM + explanation + GCN,random,0.1,blend,0.8861322999000549,2
+MiniLM + explanation + GCN,random,0.1,poe,0.8842239379882812,2
+MiniLM + explanation + GCN,random,0.25,blend,0.8893129825592041,2
+MiniLM + explanation + GCN,random,0.25,poe,0.8867684602737427,2
+MiniLM + explanation + GCN,random,0.5,blend,0.8912213444709778,2
+MiniLM + explanation + GCN,random,0.5,poe,0.8874045610427856,2
+MiniLM + explanation + GCN,random,0.75,blend,0.8899490833282471,2
+MiniLM + explanation + GCN,random,0.75,poe,0.8886768221855164,2
+MiniLM + explanation + GCN,random,1.0,blend,0.8918575048446655,2
+MiniLM + explanation + GCN,random,1.0,poe,0.8886768221855164,2
+DeBERTa + GCN,least confident,0.0,blend,0.9052162766456604,0
+DeBERTa + GCN,least confident,0.0,poe,0.9052162766456604,0
+DeBERTa + GCN,least confident,0.1,blend,0.9083969593048096,0
+DeBERTa + GCN,least confident,0.1,poe,0.9077607989311218,0
+DeBERTa + GCN,least confident,0.25,blend,0.9083969593048096,0
+DeBERTa + GCN,least confident,0.25,poe,0.9071246981620789,0
+DeBERTa + GCN,least confident,0.5,blend,0.9083969593048096,0
+DeBERTa + GCN,least confident,0.5,poe,0.9071246981620789,0
+DeBERTa + GCN,least confident,0.75,blend,0.9083969593048096,0
+DeBERTa + GCN,least confident,0.75,poe,0.9071246981620789,0
+DeBERTa + GCN,least confident,1.0,blend,0.9083969593048096,0
+DeBERTa + GCN,least confident,1.0,poe,0.9071246981620789,0
+DeBERTa + GCN,random,0.0,blend,0.9052162766456604,0
+DeBERTa + GCN,random,0.0,poe,0.9052162766456604,0
+DeBERTa + GCN,random,0.1,blend,0.9058524370193481,0
+DeBERTa + GCN,random,0.1,poe,0.9058524370193481,0
+DeBERTa + GCN,random,0.25,blend,0.9071246981620789,0
+DeBERTa + GCN,random,0.25,poe,0.9083969593048096,0
+DeBERTa + GCN,random,0.5,blend,0.9064885377883911,0
+DeBERTa + GCN,random,0.5,poe,0.9083969593048096,0
+DeBERTa + GCN,random,0.75,blend,0.9071246981620789,0
+DeBERTa + GCN,random,0.75,poe,0.9077607989311218,0
+DeBERTa + GCN,random,1.0,blend,0.9083969593048096,0
+DeBERTa + GCN,random,1.0,poe,0.9071246981620789,0
+DeBERTa + GCN,least confident,0.0,blend,0.9007633328437805,1
+DeBERTa + GCN,least confident,0.0,poe,0.9007633328437805,1
+DeBERTa + GCN,least confident,0.1,blend,0.9058524370193481,1
+DeBERTa + GCN,least confident,0.1,poe,0.9064885377883911,1
+DeBERTa + GCN,least confident,0.25,blend,0.9058524370193481,1
+DeBERTa + GCN,least confident,0.25,poe,0.9058524370193481,1
+DeBERTa + GCN,least confident,0.5,blend,0.9058524370193481,1
+DeBERTa + GCN,least confident,0.5,poe,0.9058524370193481,1
+DeBERTa + GCN,least confident,0.75,blend,0.9058524370193481,1
+DeBERTa + GCN,least confident,0.75,poe,0.9058524370193481,1
+DeBERTa + GCN,least confident,1.0,blend,0.9058524370193481,1
+DeBERTa + GCN,least confident,1.0,poe,0.9058524370193481,1
+DeBERTa + GCN,random,0.0,blend,0.9007633328437805,1
+DeBERTa + GCN,random,0.0,poe,0.9007633328437805,1
+DeBERTa + GCN,random,0.1,blend,0.9013994932174683,1
+DeBERTa + GCN,random,0.1,poe,0.9001272320747375,1
+DeBERTa + GCN,random,0.25,blend,0.9007633328437805,1
+DeBERTa + GCN,random,0.25,poe,0.9007633328437805,1
+DeBERTa + GCN,random,0.5,blend,0.9045801758766174,1
+DeBERTa + GCN,random,0.5,poe,0.9020355939865112,1
+DeBERTa + GCN,random,0.75,blend,0.9052162766456604,1
+DeBERTa + GCN,random,0.75,poe,0.9045801758766174,1
+DeBERTa + GCN,random,1.0,blend,0.9058524370193481,1
+DeBERTa + GCN,random,1.0,poe,0.9058524370193481,1
+DeBERTa + GCN,least confident,0.0,blend,0.9033079147338867,2
+DeBERTa + GCN,least confident,0.0,poe,0.9033079147338867,2
+DeBERTa + GCN,least confident,0.1,blend,0.9071246981620789,2
+DeBERTa + GCN,least confident,0.1,poe,0.9058524370193481,2
+DeBERTa + GCN,least confident,0.25,blend,0.9071246981620789,2
+DeBERTa + GCN,least confident,0.25,poe,0.9052162766456604,2
+DeBERTa + GCN,least confident,0.5,blend,0.9071246981620789,2
+DeBERTa + GCN,least confident,0.5,poe,0.9052162766456604,2
+DeBERTa + GCN,least confident,0.75,blend,0.9071246981620789,2
+DeBERTa + GCN,least confident,0.75,poe,0.9052162766456604,2
+DeBERTa + GCN,least confident,1.0,blend,0.9071246981620789,2
+DeBERTa + GCN,least confident,1.0,poe,0.9052162766456604,2
+DeBERTa + GCN,random,0.0,blend,0.9033079147338867,2
+DeBERTa + GCN,random,0.0,poe,0.9033079147338867,2
+DeBERTa + GCN,random,0.1,blend,0.9039440155029297,2
+DeBERTa + GCN,random,0.1,poe,0.9033079147338867,2
+DeBERTa + GCN,random,0.25,blend,0.9052162766456604,2
+DeBERTa + GCN,random,0.25,poe,0.9045801758766174,2
+DeBERTa + GCN,random,0.5,blend,0.9071246981620789,2
+DeBERTa + GCN,random,0.5,poe,0.9058524370193481,2
+DeBERTa + GCN,random,0.75,blend,0.9077607989311218,2
+DeBERTa + GCN,random,0.75,poe,0.9077607989311218,2
+DeBERTa + GCN,random,1.0,blend,0.9071246981620789,2
+DeBERTa + GCN,random,1.0,poe,0.9052162766456604,2

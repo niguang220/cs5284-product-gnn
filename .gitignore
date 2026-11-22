@@ -1,0 +1,50 @@
+# ---- data & large artefacts ----
+outputs/
+cache/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.npy
+*.npz
+!results/4_fusion/final_*_predictions.npz
+*.pkl
+*.parquet
+*.safetensors
+
+# ---- secrets ----
+.env
+*.env
+.env.*
+
+# ---- python ----
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# ---- tooling ----
+wandb/
+lightning_logs/
+.DS_Store
+Thumbs.db
+
+# ---- local notes ----
+CLAUDE.md
+
+# ---- exploration run logs (code, summaries and write-ups are kept) ----
+exp/**/*.log
+exp/**/logs/
+exp/**/*.jsonl
+
+# ---- raw per-configuration grids of the post-hoc searches (summaries and selected rows are kept) ----
+exp/**/*_runs.csv
+exp/**/*.csv.gz
+exp/g-localprior/runs*/
+exp/g-localprior/prior_error*/
+
+# ---- per-run outputs that the Stage 1 notebooks write again on every run (summaries are kept) ----
+results/1_gnn_ogb/03_tuned_baselines/runs/
+# ---- figures the Stage 2 notebook writes ----
+results/2_text_only/figures/
